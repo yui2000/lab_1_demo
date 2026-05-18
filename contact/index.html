@@ -9,24 +9,36 @@
 <link rel="stylesheet" href="../style.css">
 
 <body>
+
   <nav>
-        <ul>
             <a href="../index.html">Home</a>
             <a href="../projects/index.html">Projects</a>
             <a href="index.html" class="current">Contact</a>
             <a href="../resume/index.html">CV</a>
-        </ul>
     </nav>
 
+    <h1>Contact me</h1>
+
     <form action="mailto:YOUR_EMAIL_ADDRESS" method="GET">
-        <label for="email">Email:</label><br>
-        <input name="email" type="email"><br><br>
-        <label for="subject">Subject:</label><br>
-        <input name="subject" type="text"><br><br>
-        <label for="body">Message:</label><br>
-        <textarea name="body" rows="4" cols="50"></textarea><br><br>
-        <button type="submit">Send</button>
-    </form>
+
+    <label>
+        <span>Email:</span>
+        <input name="email" type="email">
+    </label>
+
+    <label>
+        <span>Subject:</span>
+        <input name="subject" type="text">
+    </label>
+
+    <label>
+        <span>Message:</span>
+        <textarea name="body"></textarea>
+    </label>
+
+    <button type="submit">Send</button>
+
+</form>
 
 </body>
 </html>

@@ -15,6 +15,15 @@ nav {
     text-align: center;
 }
 
+h1 {
+    font-size: 400%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.1;
+    text-wrap: balance;
+}
+
 a {
     flex: 1;
     text-decoration: none;
@@ -65,8 +74,17 @@ img {
     max-width: 100%;
 }
 
-.projects {
+.projects-page {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
     gap: 1em;
+}
+
+.projects-page h2 {
+    margin: 0;
+}
+
+article {
+    grid-template-columns: subgrid;
+    grid-row: span 3;
 }
