@@ -5,7 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
 </head>
+
+<link rel="stylesheet" href="../style.css">
+
 <body>
+  <nav>
+        <ul>
+            <a href="../index.html">Home</a>
+            <a href="../projects/index.html">Projects</a>
+            <a href="index.html" class="current">Contact</a>
+            <a href="../resume/index.html">CV</a>
+        </ul>
+    </nav>
+
     <form action="mailto:YOUR_EMAIL_ADDRESS" method="GET">
         <label for="email">Email:</label><br>
         <input name="email" type="email"><br><br>
@@ -14,6 +26,7 @@
         <label for="body">Message:</label><br>
         <textarea name="body" rows="4" cols="50"></textarea><br><br>
         <button type="submit">Send</button>
+    </form>
 
 </body>
 </html>
